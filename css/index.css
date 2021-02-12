@@ -58,16 +58,65 @@ html, body {
 
 /* Header */
 header {
-    margin: 0% 0% 0% 0%;
-    padding: 2% 2% 5% 2%;
+    width: 100%;
+    background: white;
 }
 
-.header-container {
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+
+
+/* header nav a {
+    color: black;
+    text-decoration: none;
+} */
+
+.container-block {
+    color: black;
+    text-decoration: none;
+}
+
+/* .header-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+} */
+
+.header-top-left, .header-top-right {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 60%;
+}
+
+.header-top-left {
+    justify-content: flex-start;
+}
+
+.header-top-right {
+    justify-content: flex-end;
+}
+
+.bottom-container-image {
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+/* /* .header-container {
     display: flex;
     flex-direction: row;
     width: 800px;
     margin: 0 auto;
-}
+} 
 
 .header-top-left {
 
@@ -85,7 +134,7 @@ header {
     left: 0;
     width: 100%;
     height: 60px;
-}
+} */
 
 .bottom-container-image {
     background-repeat: no-repeat;
@@ -93,6 +142,8 @@ header {
 
 .bottom-header-image {
     display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 /* General Styles */
