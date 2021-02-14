@@ -56,6 +56,82 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
+header {
+    width: 100%;
+    background: white;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+/* .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}  */
+
+.container-block {
+    color: black;
+    text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header-image {
+    padding: 2%;
+}
+
+.header-top-left, .header-top-right {
+    display: flex;
+    margin: 2%;
+    padding: 1%;
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: flex-end;
+}
+
+.header-top-left {
+    justify-content: flex-start;
+    align-content: flex-end;
+    padding: 4%;
+    margin: 4%;
+}
+
+.header-top-right {
+    justify-content: space-evenly;
+}
+
+.bottom-container-image {
+    display: flex;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-container-image {
+    background-repeat: no-repeat;
+}
+
+.bottom-header-image {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/* General Styles */
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -104,12 +180,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Box colors */
+
+.one {
+    background-color: teal;
+}
+.two {
+    background-color: gold;
+}
+.three {
+    background-color: cadetblue;
+}
+.four {
+    background-color: coral;
+}
+.five {
+    background-color: crimson;
+}
+.six {
+    background-color: forestgreen;
+}
+.seven {
+    background-color: darkorchid;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: indigo;
+}
+.ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
