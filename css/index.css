@@ -74,7 +74,6 @@ p {
 /* Header Styles */
 .main-nav {
     width: 100%;
-    /* border: 5px solid grey; */
 }
 
 header nav {
@@ -85,13 +84,11 @@ header nav {
     padding: 2% 0;
     padding-right: 7%;
     font-size: 14px;
-    /* border: 5px solid grey; */
 }
 
 header nav a {
     color: black;
     text-decoration: none;
-    /* border: 3px solid yellow; */
 }
 
 .header-image {
@@ -248,11 +245,10 @@ footer nav a {
 }
 
 .button-container p {
-    /* border: 2px solid tomato; */
     font-size: 15px;
     color: black;
     text-decoration: none;
-    padding: 2% 2%;
+    padding: 4% 0;
 }
 
 /* Bottom About Styles */
@@ -262,7 +258,6 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    /* border-bottom: 1px dashed black; */
 }
 .about-bottom-content .about-bottom {
     width: 100%;
