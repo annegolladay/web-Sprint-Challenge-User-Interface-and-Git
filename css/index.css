@@ -66,9 +66,33 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, header {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Header Styles */
+.main-nav {
+    width: 100%;
+    /* border: 5px solid grey; */
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    /* border: 3px solid yellow; */
+}
+
+.header-image {
+    padding-bottom: 20px;
 }
 
 .top-content {
@@ -104,12 +128,44 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Box Color Styles*/
+.one {
+    background-color: teal;
+}
+.two {
+    background-color: gold;
+}
+.three {
+    background-color: cadetblue;
+}
+.four {
+    background-color: coral;
+}
+.five {
+    background-color: crimson;
+}
+.six {
+    background-color: forestgreen;
+}
+.seven {
+    background-color: darkorchid;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: indigo;
+}
+.ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
