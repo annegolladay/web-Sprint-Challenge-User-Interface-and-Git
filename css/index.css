@@ -66,10 +66,36 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, header {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Header Styles */
+.main-nav {
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+    padding: 2% 0;
+    padding-right: 7%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-image {
+    padding-bottom: 20px;
+}
+
+/* Top Styles */
 
 .top-content {
     display: flex;
@@ -84,6 +110,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Styles */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +132,47 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Box Color Styles*/
+.one {
+    background-color: teal;
+}
+.two {
+    background-color: gold;
+}
+.three {
+    background-color: cadetblue;
+}
+.four {
+    background-color: coral;
+}
+.five {
+    background-color: crimson;
+}
+.six {
+    background-color: forestgreen;
+}
+.seven {
+    background-color: darkorchid;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: indigo;
+}
+.ten {
+    background-color: dodgerblue;
+}
+
+/* Bottom Styles */
 
 .bottom-content {
     display: flex;
@@ -143,4 +205,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Styles */
+
+.top-content .about-top {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+/* Middle About styles */
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    /* border-bottom: 1px dashed black; */
+}
+
+.about-middle .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; 
+}
+
+.about-middle .text-container h2 {
+    margin-top: 20px;
+}
+
+.button-container {
+    font-size: 20px;
+    width: 35%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button-container p {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    padding: 4% 0;
+}
+
+/* Bottom About Styles */
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.about-bottom-content .about-bottom {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
